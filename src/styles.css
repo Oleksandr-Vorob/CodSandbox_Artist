@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0%;
+  background-image: url(https://thumbs.dreamstime.com/b/fondo-de-la-textura-del-papel-vintage-129256819.jpg);
+}
+h1 {
+  text-shadow: black 1px 1px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(https://img.freepik.com/premium-photo/old-vintage-paper-texture-background_293060-5242.jpg?w=2000);
+  position: sticky;
+  top: 0px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px;
+  border: black 1px solid;
+  margin: 5px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+nav ul li:hover {
+  box-shadow: 0 0 10px black;
+}
+img {
+  height: 30vw;
+}
+h5 {
+  font-size: larger;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+form {
+  text-align: left;
+}
+form label {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+input[type="submit"] {
+  padding: 10px;
+  margin-left: 40vw;
+  font-weight: bolder;
+  background-color: rgba(255, 250, 240, 0);
+  width: 25vw;
+}
+.newCollection {
+  margin: 50px 200px;
+  display: flex;
+}
+p {
+  font-size: larger;
+}
+.newCollection span {
+  margin: 5vw 3vw;
+}
